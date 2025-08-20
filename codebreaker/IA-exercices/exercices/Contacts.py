@@ -3,7 +3,7 @@
 contacts = {}
 
 #Pour l'ajout d'un contact
-def ajouter_contact():
+def ajout_contact():
     nom = input("Nom du contact : ")
     numero = input("Numéro de téléphone : ")
     email = input("Adresse email : ")
@@ -106,5 +106,6 @@ def menu():
             break
         else:
             print("⚠️ Choix invalide, essayez encore.")
+
 
 menu()
